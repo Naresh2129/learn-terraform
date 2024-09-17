@@ -20,6 +20,6 @@ variable "dogs" {
   ]
 }
 output "dogs_breed" {
-  value = ["var.dogs.breed"]
+  value = ["var.dogs[0].breed"]
 
 }
