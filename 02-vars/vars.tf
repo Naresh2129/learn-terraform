@@ -1,5 +1,5 @@
 variable "fruits" {
-  default = [ "apple" "banana" "oranges" "lemon" ]
+  default = [ "apple","banana","oranges","lemon" ]
 }
 output "fruit_name" {
   value = var.fruits
