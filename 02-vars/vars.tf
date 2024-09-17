@@ -15,5 +15,5 @@ variable "fruits_with_price" {
 }
 
 output "apple_price" {
-  value = var.fruits_with_price["apple"]
+  value = var.fruits_with_price [["apple"], ["banana"], ["oranges"], ["lemons"] ]
 }
