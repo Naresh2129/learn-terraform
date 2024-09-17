@@ -32,4 +32,5 @@ variable "fruit_details" {
 }
 
 output "apple_price" {
-  value = "apple price" = $(var.fruit_details["apple"].stock)
+  value = var.fruit_details["apple"].stock
+}
