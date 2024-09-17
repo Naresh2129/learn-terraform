@@ -1,25 +1,6 @@
-variable "thing_i_made_up" {
-  type = string
+variable "fruits" {
+  default = apple
 }
-
-variable "random_number" {
-  default = 5
+output "fruit_name" {
+  value = "var.fruits"
 }
-
-variable "dogs" {
-  type = list(object({
-    name  = string
-    breed = string
-  }))
-
-  default = [
-    {
-      name  = "Sparky",
-      breed = "poodle"
-    }
-  ]
-}
-# output "dogs" {
-#   value = ["var.dogs[0].breed"]
-#
-# }
