@@ -19,7 +19,7 @@ variable "dogs" {
     }
   ]
 }
-output "dogs" {
-  value = ["var.dogs[0].breed"]
-
-}
+# output "dogs" {
+#   value = ["var.dogs[0].breed"]
+#
+# }
